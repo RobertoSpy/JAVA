@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
        
-       
+       //asignarea proiectelor de ce tip
         Project p1 = new Project("P1", ProjectType.THEORETICAL);
         Project p2 = new Project("P2", ProjectType.PRACTICAL);
         Project p3 = new Project("P3", ProjectType.THEORETICAL);
@@ -27,7 +27,7 @@ public class Main {
         p3.setAssignedStudent(s3);  
         p4.setAssignedStudent(s4);  
 
-       
+       //afisare 
         System.out.println("Studentii si proiectele lor alocate:");
         System.out.println(s1);
         System.out.println(s2);

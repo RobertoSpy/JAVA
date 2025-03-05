@@ -2,14 +2,14 @@ public class Project {
   private String projectName;
   private ProjectType projectType;
   private Student assignedStudent;
-
+  // projectType ca sa vad de ce tip sunt proiectele si un name
   public Project(String projectName, ProjectType projectType) {
       this.projectName = projectName;
       this.projectType = projectType;
       this.assignedStudent = null; 
   }
 
-  
+  //metode
   public String getProjectName() {
       return projectName;
   }
@@ -35,6 +35,7 @@ public class Project {
   }
 
   @Override
+  //overriding pe afisare
   public String toString() {
       return "Project{" +
               "projectName='" + projectName + '\'' +
