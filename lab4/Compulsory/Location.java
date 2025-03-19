@@ -17,7 +17,7 @@ public class Location implements Comparable<Location> {
     public LocationType getType(){
         return type;
     }
-
+//aici fac override pe sortare dupa nume
     @Override
     public int compareTo(Location other){
         return this.name.compareTo(other.name);
