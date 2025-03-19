@@ -9,7 +9,7 @@ import java.util.Set;
         this.airport = airport;
         this.flights = flights;
     }
-
+//mapez si asignez zborul pe pista daca e valabil
     public Map<Flight, Runway> solve() {
         Map<Flight, Runway> flightRunwayMap = new HashMap<>();
         for (Flight flight : flights) {
