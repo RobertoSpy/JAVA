@@ -11,7 +11,7 @@ import java.util.List;
             runways.add(new Runway(i));
         }
     }
-
+//vad daca este valabila pista la ora aia
     public Runway getAvailableRunway(LocalTime start, LocalTime end) {
         for (Runway runway : runways) {
             if (runway.isAvailable(start, end)) {
