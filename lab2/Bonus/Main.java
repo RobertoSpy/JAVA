@@ -14,7 +14,7 @@ public class Main {
             projects[i] = new Project("Project " + (i + 1));
         }
 
-        //alocare proiecte profi
+        
         int numTeachers = numProjects / 2;  
         Teacher[] teachers = new Teacher[numTeachers];
         Random rand = new Random();
@@ -35,7 +35,7 @@ public class Main {
             teachers[i] = new Teacher(teacherProjects, "Teacher " + (i + 1), "1980-01-01");
         }
 
-        //alocare random studenti
+        
         Student[] students = new Student[numStudents];
         for (int i = 0; i < numStudents; i++) {
             int numPreferences = rand.nextInt(maxPreferences) + 1; 

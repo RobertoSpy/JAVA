@@ -69,7 +69,7 @@ public class Solution {
         }
         return -1;
     }
-//bkt cu hall
+
     public boolean checkHallCondition() {
         Student[] students = problem.getStudents();
         Project[] allProjects = getAllProjects();

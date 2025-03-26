@@ -6,7 +6,7 @@ public class Solution {
         this.problem = problem;
         this.allocatedProjects = new Project[problem.getStudents().length];
     }
-//greedy
+//greedy cu index care este valabil prima data
     public void allocateProjects() {
         Student[] students = problem.getStudents();
         Project[] allProjects = getAllProjects();
@@ -60,7 +60,7 @@ public class Solution {
         }
         return false;
     }
-
+//verific proiectul de la index respectiv
     private int getProjectIndex(Project project, Project[] allProjects) {
         for (int i = 0; i < allProjects.length; i++) {
             if (allProjects[i].equals(project)) {

@@ -9,7 +9,7 @@ class Teacher extends Person {
   public Project[] getProjects(){
     return projects;
   }
-
+//ovveride la equals
   @Override
   public boolean equals(Object obj) {
       if (this == obj) return true;

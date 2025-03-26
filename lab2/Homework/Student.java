@@ -1,7 +1,7 @@
 class Student extends Person {
   private int registration;
   private Project[] preferedProjects;
-
+//constructori cu metode
   public Student(int registration, String name, String dateOfBirth, Project[] preferedProjects){
     super(name, dateOfBirth);
     this.registration = registration;
