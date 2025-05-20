@@ -1,0 +1,28 @@
+May 14, 2025 3:25:52 PM com.example.MainJPA main
+INFO: Aplicația a pornit
+May 14, 2025 3:25:54 PM com.example.MainJPA main
+INFO: Continentul 'Australia' există deja: Continent [id=82, name=Australia]
+May 14, 2025 3:25:54 PM com.example.MainJPA main
+INFO: Țara 'Anaconda' există deja: 6884
+May 14, 2025 3:25:54 PM com.example.MainJPA main
+INFO: Orașul 'Piton' există deja: 23
+May 14, 2025 3:25:54 PM com.example.JPQLExecutor executeQuery
+INFO: Executed JPQL query in 6178000 nanoseconds
+May 14, 2025 3:25:54 PM com.example.JPQLExecutor executeQuery
+INFO: Executed JPQL query in 17623399 nanoseconds
+May 14, 2025 3:25:54 PM com.example.MainJPA main
+INFO: Aplicația s-a încheiat.
+May 14, 2025 3:27:02 PM com.example.MainJPA main
+INFO: Aplicația a pornit
+May 14, 2025 3:27:03 PM com.example.MainJPA main
+INFO: Continentul 'Australia' există deja: Continent [id=82, name=Australia]
+May 14, 2025 3:27:03 PM com.example.MainJPA main
+INFO: Țara 'Anaconda' există deja: 6884
+May 14, 2025 3:27:03 PM com.example.MainJPA main
+INFO: Orașul 'Piton' există deja: 23
+May 14, 2025 3:27:03 PM com.example.JPQLExecutor executeQuery
+INFO: Executed JPQL query in 4558099 nanoseconds
+May 14, 2025 3:27:03 PM com.example.JPQLExecutor executeQuery
+INFO: Executed JPQL query in 14467900 nanoseconds
+May 14, 2025 3:27:03 PM com.example.MainJPA main
+INFO: Aplicația s-a încheiat.

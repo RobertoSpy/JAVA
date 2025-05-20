@@ -1,0 +1,37 @@
+City,Country,Capital,Latitude,Longitude
+Bucharest,Romania,true,44.4328,26.1043
+Paris,France,true,48.8566,2.3522
+London,United Kingdom,true,51.5074,-0.1278
+Madrid,Spain,true,40.4168,-3.7038
+Berlin,Germany,true,52.52,13.405
+USA,Washington D.C.,True,38.89511,-77.03637
+USA,New York,False,40.71278,-74.00597
+France,Paris,True,48.85661,2.35222
+Germany,Berlin,True,52.52001,13.40495
+UK,London,True,51.50722,-0.1275
+Japan,Tokyo,True,35.6895,139.69171
+Canada,Toronto,False,43.65107,-79.34702
+Canada,Ottawa,True,45.42153,-75.69719
+Australia,Sydney,False,-33.86882,151.20929
+Australia,Canberra,True,-35.28094,149.13001
+Argentina,Córdoba,False,-42.8217,-57.42831
+Mexico,Mexico City,True,32.60065,92.2564
+China,Beijing,True,62.66971,-101.21912
+Spain,Madrid,True,53.84274,-39.19909
+Russia,Novosibirsk,False,78.61618,-142.32246
+Russia,Moscow,True,-24.64932,112.77263
+Mexico,Guadalajara,False,-53.97266,-105.96953
+South Africa,Cape Town,False,46.29569,-93.5811
+Russia,Kazan,True,-80.11596,-155.22892
+Russia,St. Petersburg,True,-55.24798,32.49672
+South Africa,Durban,False,-37.77884,-97.16156
+Russia,Sochi,False,-37.95972,-67.0622
+Egypt,Cairo,True,75.028,150.01242
+Argentina,Rosario,False,-37.72845,116.75543
+South Africa,Port Elizabeth,False,-53.42359,17.15628
+Italy,Naples,False,18.54237,21.87153
+Italy,Rome,True,78.75814,-154.57365
+Spain,Barcelona,True,-52.30723,20.62722
+Mexico,Monterrey,False,44.9719,90.27143
+Italy,Milan,False,45.14213,59.23737
+Italy,Florence,True,-58.4544,146.2909

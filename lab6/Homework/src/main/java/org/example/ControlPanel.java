@@ -22,7 +22,7 @@ public class ControlPanel extends JPanel {
     }
 
     private void init() {
-        setLayout(new GridLayout(1, 4)); // 4 butoane pe un rând
+        setLayout(new GridLayout(1, 4)); 
 
         add(loadBtn);
         add(saveBtn);

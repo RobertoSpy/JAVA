@@ -22,7 +22,7 @@ public class GameLogic {
         UnionFind uf = new UnionFind(dots.size());
         List<Line> validLines = new ArrayList<>();
     
-        // Filtrează liniile care conțin puncte valide
+        
         for (Line line : lines) {
             if (dots.contains(line.getStart()) && dots.contains(line.getEnd())) {
                 validLines.add(line);
