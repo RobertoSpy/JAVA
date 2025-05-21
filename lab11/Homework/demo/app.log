@@ -1,0 +1,327 @@
+May 14, 2025 2:43:41 PM com.example.MainJPA main
+INFO: Aplicatia a pornit
+May 14, 2025 2:43:41 PM ArchiveFactoryImpl createArchive
+FINER: ENTRY file:/C:/Users/Roberto/OneDrive/Desktop/JAVA/lab9.1/Homework/demo/target/classes/ META-INF/persistence.xml
+May 14, 2025 2:43:41 PM ArchiveFactoryImpl createArchive
+FINER: protocol = file
+May 14, 2025 2:43:41 PM DirectoryArchive DirectoryArchive
+FINER: ENTRY C:\Users\Roberto\OneDrive\Desktop\JAVA\lab9.1\Homework\demo\target\classes
+May 14, 2025 2:43:41 PM DirectoryArchive DirectoryArchive
+FINER: rootURL = file:/C:/Users/Roberto/OneDrive/Desktop/JAVA/lab9.1/Homework/demo/target/classes/
+May 14, 2025 2:43:41 PM ArchiveFactoryImpl createArchive
+FINER: RETURN DirectoryArchive(file:/C:/Users/Roberto/OneDrive/Desktop/JAVA/lab9.1/Homework/demo/target/classes/)
+May 14, 2025 2:43:41 PM ArchiveFactoryImpl createArchive
+FINER: ENTRY file:/C:/Users/Roberto/OneDrive/Desktop/JAVA/lab9.1/Homework/demo/target/classes/ null
+May 14, 2025 2:43:41 PM ArchiveFactoryImpl createArchive
+FINER: protocol = file
+May 14, 2025 2:43:41 PM DirectoryArchive DirectoryArchive
+FINER: ENTRY C:\Users\Roberto\OneDrive\Desktop\JAVA\lab9.1\Homework\demo\target\classes
+May 14, 2025 2:43:41 PM DirectoryArchive DirectoryArchive
+FINER: rootURL = file:/C:/Users/Roberto/OneDrive/Desktop/JAVA/lab9.1/Homework/demo/target/classes/
+May 14, 2025 2:43:41 PM ArchiveFactoryImpl createArchive
+FINER: RETURN DirectoryArchive(file:/C:/Users/Roberto/OneDrive/Desktop/JAVA/lab9.1/Homework/demo/target/classes/)
+May 14, 2025 2:43:41 PM ArchiveFactoryImpl createArchive
+FINER: ENTRY file:/C:/Users/Roberto/OneDrive/Desktop/JAVA/lab9.1/Homework/demo/target/classes/ null
+May 14, 2025 2:43:41 PM ArchiveFactoryImpl createArchive
+FINER: protocol = file
+May 14, 2025 2:43:41 PM DirectoryArchive DirectoryArchive
+FINER: ENTRY C:\Users\Roberto\OneDrive\Desktop\JAVA\lab9.1\Homework\demo\target\classes
+May 14, 2025 2:43:41 PM DirectoryArchive DirectoryArchive
+FINER: rootURL = file:/C:/Users/Roberto/OneDrive/Desktop/JAVA/lab9.1/Homework/demo/target/classes/
+May 14, 2025 2:43:41 PM ArchiveFactoryImpl createArchive
+FINER: RETURN DirectoryArchive(file:/C:/Users/Roberto/OneDrive/Desktop/JAVA/lab9.1/Homework/demo/target/classes/)
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = JMImplementation:type=MBeanServerDelegate
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = JMImplementation:type=MBeanServerDelegate
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object JMImplementation:type=MBeanServerDelegate
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered JMImplementation:type=MBeanServerDelegate
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.RuntimeImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:type=Runtime
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:type=Runtime
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:type=Runtime
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:type=Runtime
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for com.sun.management.internal.HotSpotThreadImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:type=Threading
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:type=Threading
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:type=Threading
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:type=Threading
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for com.sun.management.internal.OperatingSystemImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:type=OperatingSystem
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:type=OperatingSystem
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:type=OperatingSystem
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:type=OperatingSystem
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryManagerImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=CodeCacheManager,type=MemoryManager
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=CodeCacheManager,type=MemoryManager
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=CodeCacheManager,type=MemoryManager
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=CodeCacheManager,type=MemoryManager
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryManagerImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=Metaspace Manager,type=MemoryManager
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=Metaspace Manager,type=MemoryManager
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=Metaspace Manager,type=MemoryManager
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=Metaspace Manager,type=MemoryManager
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryPoolImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=CodeHeap 'non-nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryPoolImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=Metaspace,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=Metaspace,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=Metaspace,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=Metaspace,type=MemoryPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryPoolImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=CodeHeap 'profiled nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryPoolImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=Compressed Class Space,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=Compressed Class Space,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=Compressed Class Space,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=Compressed Class Space,type=MemoryPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryPoolImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=G1 Eden Space,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=G1 Eden Space,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=G1 Eden Space,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=G1 Eden Space,type=MemoryPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryPoolImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=G1 Old Gen,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=G1 Old Gen,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=G1 Old Gen,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=G1 Old Gen,type=MemoryPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryPoolImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=G1 Survivor Space,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=G1 Survivor Space,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=G1 Survivor Space,type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=G1 Survivor Space,type=MemoryPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryPoolImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=CodeHeap 'non-profiled nmethods',type=MemoryPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.CompilationImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:type=Compilation
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:type=Compilation
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:type=Compilation
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:type=Compilation
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.MemoryImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:type=Memory
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:type=Memory
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:type=Memory
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:type=Memory
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.ManagementFactoryHelper$PlatformLoggingImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.util.logging:type=Logging
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.util.logging:type=Logging
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.util.logging:type=Logging
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.util.logging:type=Logging
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.ClassLoadingImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:type=ClassLoading
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:type=ClassLoading
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:type=ClassLoading
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:type=ClassLoading
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = com.sun.management:type=DiagnosticCommand
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = com.sun.management:type=DiagnosticCommand
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object com.sun.management:type=DiagnosticCommand
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered com.sun.management:type=DiagnosticCommand
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=G1 Young Generation,type=GarbageCollector
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=G1 Young Generation,type=GarbageCollector
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=G1 Young Generation,type=GarbageCollector
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=G1 Young Generation,type=GarbageCollector
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=G1 Concurrent GC,type=GarbageCollector
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=G1 Concurrent GC,type=GarbageCollector
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=G1 Concurrent GC,type=GarbageCollector
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=G1 Concurrent GC,type=GarbageCollector
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for com.sun.management.internal.GarbageCollectorExtImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.lang:name=G1 Old Generation,type=GarbageCollector
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.lang:name=G1 Old Generation,type=GarbageCollector
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.lang:name=G1 Old Generation,type=GarbageCollector
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.lang:name=G1 Old Generation,type=GarbageCollector
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for com.sun.management.internal.HotSpotDiagnostic
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = com.sun.management:type=HotSpotDiagnostic
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = com.sun.management:type=HotSpotDiagnostic
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object com.sun.management:type=HotSpotDiagnostic
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered com.sun.management:type=HotSpotDiagnostic
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.nio:name=mapped,type=BufferPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.nio:name=mapped,type=BufferPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.nio:name=mapped,type=BufferPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.nio:name=mapped,type=BufferPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.nio:name=direct,type=BufferPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.nio:name=direct,type=BufferPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.nio:name=direct,type=BufferPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.nio:name=direct,type=BufferPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for sun.management.ManagementFactoryHelper$1
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered java.nio:name=mapped - 'non-volatile memory',type=BufferPool
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for jdk.management.jfr.FlightRecorderMXBeanImpl
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = jdk.management.jfr:type=FlightRecorder
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = jdk.management.jfr:type=FlightRecorder
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object jdk.management.jfr:type=FlightRecorder
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered jdk.management.jfr:type=FlightRecorder
+May 14, 2025 2:43:42 PM javax.management.StandardMBean getMBeanInfo
+FINER: Building MBeanInfo for oracle.jdbc.driver.OracleDiagnosabilityMBean
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerDynamicMBean
+FINER: ObjectName = com.oracle.jdbc:type=diagnosability,name=org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@35cd68d4
+May 14, 2025 2:43:42 PM com.sun.jmx.mbeanserver.Repository addMBean
+FINER: name = com.oracle.jdbc:type=diagnosability,name=org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@35cd68d4
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor registerWithRepository
+FINER: Send create notification of object com.oracle.jdbc:name=org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@35cd68d4,type=diagnosability
+May 14, 2025 2:43:42 PM com.sun.jmx.interceptor.DefaultMBeanServerInterceptor sendNotification
+FINER: JMX.mbean.registered com.oracle.jdbc:type=diagnosability,name=org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader@35cd68d4
+May 14, 2025 2:43:42 PM java.io.ObjectInputFilter$Config traceFilter
+FINER: Builtin factory: null -> new: null
+May 14, 2025 2:43:42 PM java.io.ObjectInputFilter$Config traceFilter
+FINER: Builtin factory: null -> new: null
+May 14, 2025 2:43:42 PM java.io.ObjectInputFilter$Config traceFilter
+FINER: Builtin factory: null -> new: null
+May 14, 2025 2:43:42 PM java.io.ObjectInputFilter$Config traceFilter
+FINER: Builtin factory: null -> new: null
+May 14, 2025 2:43:42 PM java.io.ObjectInputFilter$Config traceFilter
+FINER: Builtin factory: null -> new: null
+May 14, 2025 2:43:57 PM java.lang.Shutdown logRuntimeExit
+FINE: Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Runtime.exit(Runtime.java:188)
+	at java.base/java.lang.System.exit(System.java:1920)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:316)
+

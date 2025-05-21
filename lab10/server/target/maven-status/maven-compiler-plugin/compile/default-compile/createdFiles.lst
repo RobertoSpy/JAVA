@@ -1,2 +1,7 @@
-com\example\ClientThread.class
-com\example\GameServer.class
+com\example\Game.class
+com\example\Player.class
+com\example\GameManager.class
+com\example\ClientHandler.class
+com\example\Game$1.class
+com\example\Server.class
+com\example\HexBoard.class
