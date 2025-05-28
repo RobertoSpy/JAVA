@@ -6,10 +6,12 @@ import jakarta.persistence.*;
 })
 @Entity
 @Table(name = "cities")
+
 public class City {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "city_seq")
+@SequenceGenerator(name = "city_seq", sequenceName = "cities_seq", allocationSize = 1)
+    private Integer id;
     
     @Column(name = "name")
     private String name;
@@ -47,11 +49,11 @@ public class City {
     }
 
     // Getters and setters
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

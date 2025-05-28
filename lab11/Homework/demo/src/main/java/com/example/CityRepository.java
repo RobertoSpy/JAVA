@@ -1,34 +1,18 @@
 package com.example;
 
-import jakarta.persistence.EntityManager;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
 import java.util.List;
 
-public class CityRepository extends AbstractRepository<City, Integer> {
-    public CityRepository(EntityManager em) {
-        super(em, City.class);
-    }
+@Repository
+public interface CityRepository extends JpaRepository<City, Integer> {
 
-    public List<City> findByCountryId(int id) {
-        return em.createQuery("SELECT c FROM City c WHERE c.country.id = :id", City.class)
-                .setParameter("id", id)
-                .getResultList();
-    }
+    // Metode personalizate - Spring Data le implementează automat:
 
-    public List<City> findCapitals() {
-        return em.createQuery("SELECT c FROM City c WHERE c.capital = true", City.class)
-                .getResultList();
-    }
+    List<City> findByCountryId(int countryId);
 
-    public List<City> findByName(String name) {
-        return em.createNamedQuery("City.findByName", City.class)
-                .setParameter("name", name)
-                .getResultList();
-    }
+    List<City> findByCapitalTrue();
 
-    public void create(City city) {
-    em.getTransaction().begin();
-    em.persist(city);
-    em.getTransaction().commit(); // <-- asta forțează scrierea în DB
-}
-
+    List<City> findByName(String name);
 }

@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name = "countries")
@@ -25,6 +26,7 @@ public class Country {
     private Continent continent;
 
     @OneToMany(mappedBy = "country", cascade = CascadeType.ALL)
+    @JsonIgnore
     private List<City> cities;
 
     public Country() {}

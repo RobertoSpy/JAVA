@@ -1,7 +1,6 @@
 package com.example;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -11,20 +10,23 @@ import java.util.stream.Collectors;
 @RequestMapping("/countries")
 public class CountryController {
 
-    @PersistenceContext
-    private EntityManager em;
+    private final CountryRepository countryRepository;
+
+    @Autowired
+    public CountryController(CountryRepository countryRepository) {
+        this.countryRepository = countryRepository;
+    }
 
     @GetMapping
     public List<CountryDTO> getAllCountries() {
-        CountryRepository countryRepository = new CountryRepository(em);
-        List<Country> countries = em.createQuery("SELECT c FROM Country c", Country.class).getResultList();
+        List<Country> countries = countryRepository.findAll();
 
         return countries.stream()
                 .map(c -> new CountryDTO(
                         c.getId(),
                         c.getName(),
                         c.getCode(),
-                        c.getContinent().getName()
+                        c.getContinent() != null ? c.getContinent().getName() : null
                 ))
                 .collect(Collectors.toList());
     }

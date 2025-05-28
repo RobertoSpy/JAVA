@@ -29,12 +29,20 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        
+        <dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>2.1.0</version>
+</dependency>
 
          <dependency>
     <groupId>org.hibernate.orm</groupId>
     <artifactId>hibernate-community-dialects</artifactId>
     <version>6.4.4.Final</version>
 </dependency>
+
+
 
 
         <dependency>
@@ -56,7 +64,12 @@
             <version>19.8.0.0</version>
         </dependency>
 
-
+   <!-- Swagger UI + OpenAPI -->
+<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-ui</artifactId>
+    <version>1.6.15</version> <!-- verifică ultima versiune pe Maven Central -->
+</dependency>
 
         <!-- Logging -->
         <dependency>
@@ -66,14 +79,28 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <!-- Spring Boot Maven Plugin -->
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+ 
+
+
+  <build>
+    <plugins>
+        <!-- Spring Boot Maven Plugin -->
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+
+        <!-- Exec Maven Plugin pentru rularea aplicației -->
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.1.0</version>
+            <configuration>
+                <mainClass>com.example.CityClientApp</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
 
 </project>
